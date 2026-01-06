@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Juniorkeys</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0f0f0f;
+  color:#fff;
+  text-align:center;
+}
+.container{
+  max-width:420px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* Foto perfil */
+.logo{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #222;
+  margin:0 auto 15px;
+  display:block;
+}
+
+h1{
+  margin-bottom:20px;
+  font-size:26px;
+}
+
+/* Redes sociais */
+.social{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-bottom:30px;
+}
+
+.social a{
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background:#1f1f1f;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:.3s;
+}
+
+.social a:hover{
+  background:#333;
+}
+
+.social img{
+  width:60px;
+  height:60px;
+}
+
+/* Produtos */
+.products{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:18px;
+}
+
+.product{
+  width:100%;
+  max-width:360px;
+  background:#1a1a1a;
+  border-radius:30px;
+  overflow:hidden;
+  text-decoration:none;
+  color:#fff;
+  transition:.3s;
+}
+
+.product:hover{
+  background:#2a2a2a;
+}
+
+.product img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.product-content{
+  padding:5px;
+}
+.product-content h2{
+  margin:0 0 6px;
+  font-size:28px;
+}
+.product-content p{
+  margin:0;
+  font-size:14px;
+  opacity:.85;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Foto -->
+  <img src="perfil.png" alt="Juniorkeys" class="logo">
+  <h1>Juniorkeys</h1>
+
+  <!-- Ícones PNG -->
+  <div class="social">
+
+    <a href="https://wa.me/5598985991853" target="_blank">
+      <img src="wpp.png" alt="WhatsApp">
+    </a>
+
+    <a href="https://www.instagram.com/juniorkeys_/" target="_blank">
+      <img src="inst.png" alt="Instagram">
+    </a>
+
+    <a href="https://www.youtube.com/@juniorkeys9084" target="_blank">
+      <img src="y.png" alt="YouTube">
+    </a>
+
+    <a href="https://www.tiktok.com/@juniorkeys_?lang=en" target="_blank">
+      <img src="tk.png" alt="TikTok">
+    </a>
+
+  </div>
+
+  <!-- Produtos -->
+  <div class="products">
+
+    <a href="https://pay.kiwify.com.br/h7pqCX8?afid=zvogVPew" class="product" target="_blank">
+      <img src="produto1.jpg" alt="Gospel Tec Promoção">
+      <div class="product-content">
+        <h2>Gospel Tec Promoção</h2>
+        <p>Oferta especial por tempo limitado</p>
+      </div>
+    </a>
+
+    <a href="https://pay.kiwify.com.br/Im4YEAl?afid=zvogVPew" class="product" target="_blank">
+      <img src="bac-bo-logo.png" alt="Gospel Tec Pro">
+      <div class="product-content">
+        <h2>EM BREVE</h2>
+        <p></p>
+      </div>
+    </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
